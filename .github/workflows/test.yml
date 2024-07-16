@@ -25,3 +25,9 @@ jobs:
 
       # Shell script to print the version
       - run: go version
+
+      - name: Build
+        run: go build -v ./...
+
+      - name: Build
+        run: go build -v ./...
